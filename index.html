@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Trabalho de Filosofia</title>
   </head>
@@ -20,7 +20,7 @@
         <img src="./assets/foto1.png">
         <h2>Falando sóbre o seu livro “Meditações de Marco Aurélio”.</h2>
         <p>O título original do livro é Τὰ εἰς ἑαυτόν que siginifica
-        “pensamentos endereçados a si mesmo”, isso é o livro tinha apenas a inteção de ser lido por uma pessoa, ele mesmo. Marco escrevia suas reflexões sem muitas palavras, porem bem elaboradas e que carregando bastante sabedoria. O livro foi montado por um discípulo, que pós a morte do imperador as compilou tudo em livro e nomeou de "Meditações de Marco Aurélio."</p>
+        “pensamentos endereçados a si mesmo”, isso é, o livro tinha apenas a inteção de ser lido por uma pessoa, ele mesmo. Marco escrevia suas reflexões sem muitas palavras, porem bem elaboradas e que carregando bastante sabedoria. O livro foi montado por um discípulo, que pós a morte do imperador as compilou tudo em livro e nomeou de "Meditações de Marco Aurélio."</p>
 
         <p>O imperador: Assumindo o trono em 161 junto com seu irmão adotivo Lúcio Aurélio Vero, governavam de acordo com o estoicismo, um dos seus primeiros problemas foi contra os cristãos, naquela epoca religião e política eram inseparáveis, portanto quem não estava de acordo com o estoicismo não estava de acordo com o estado.</p>
 
@@ -29,7 +29,6 @@
         <p>Em 169 com a morte de Lúcio começou a governar sozinho e só teve um segundo co-imperador em 177, seu filho Cômodo, em 180 morreu, durante uma expedição contra os marcomanos, a Roma depois de sua morte começou a declinar, pois o seu sucessor, Cômodo era um imperador egôcentrico e que não soube liderar Roma.</p>
       </div>
     </section>
-
     <section class="timeline-container" id="timeline">
       <div>
         <img src="./assets/foto3.png">
@@ -40,7 +39,7 @@
           <div class="line"></div>
           <li>
             <div class="timelinePoint"></div>
-            <div class="timelineItem">
+            <div class="timelineItem" data-anime="left">
               <div class="arrow"></div>
               <div class="item">
                 <div class="time c1">Ano de 121</div>
@@ -48,17 +47,92 @@
               </div>
             </div>
           </li>
-          <li class="other">
+          <li>
             <div class="timelinePoint"></div>
-            <div class="timelineItem other">
+            <div class="timelineItem" data-anime="right">
+              <div class="arrow p2"></div>
+              <div class="item">
+                <div class="time c1">Ano de 161</div>
+                <h3>Ínicio do governo de Marco Aurélio junto com seu irmão Lúcio.</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timelinePoint"></div>
+            <div class="timelineItem" data-anime="left">
               <div class="arrow"></div>
               <div class="item">
-                <div class="time c1">Ano de 121</div>
-                <h3>Nascimento de Marco Aurélio.</h3>
+                <div class="time c1">Ano de 168</div>
+                <h3>Tribos alemãs cruzam Danúbio em direção ao imperio Romano.</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timelinePoint"></div>
+            <div class="timelineItem" data-anime="right">
+              <div class="arrow p2"></div>
+              <div class="item">
+                <div class="time c1">Ano de 169</div>
+                <h3>Morte de Lúcio Aurélio Vero.</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timelinePoint"></div>
+            <div class="timelineItem" data-anime="left">
+              <div class="arrow"></div>
+              <div class="item">
+                <div class="time c1">Ano de 176</div>
+                <h3>Uma grande estátua de Marco Aurélio é construída em Roma.</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timelinePoint"></div>
+            <div class="timelineItem" data-anime="right">
+              <div class="arrow p2"></div>
+              <div class="item">
+                <div class="time c1">Ano de 177</div>
+                <h3>Marco Aúrelio começa a governar junto com seu filho, Cômodo.</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timelinePoint"></div>
+            <div class="timelineItem" data-anime="left">
+              <div class="arrow"></div>
+              <div class="item">
+                <div class="time c1">Ano de 180</div>
+                <h3>Falencimento de Marco Aúrelio.</h3>
               </div>
             </div>
           </li>
         </ul>
     </section>
+    <section class="quotes-container">
+      <div class="quotes">
+        <div class="quote-item">
+          <h1>“O melhor modo de vingar-se de um inimigo, é não se assemelhar a ele.”</h1>
+          <p>Marco Aurélio</p>
+        </div>
+        <div class="quote-item">
+          <h1>“Muitas vezes erra não apenas quem faz, mas também quem deixa de fazer alguma coisa.”</h1>
+          <p>Marco Aurélio</p>
+        </div>
+        <div class="quote-item">
+          <h1>“Mudar de opinião e seguir quem te corrige é também o comportamento do homem livre.”</h1>
+          <p>Marco Aurélio</p>
+        </div>
+      </div>
+    </section>
+    <section class="referencias-container">
+      <div class="referencias">
+        <h2>Referências</h2>
+        <a href="http://encurtador.com.br/gHT24">Socientifica</a>
+        <a href="http://encurtador.com.br/NPUY7">CrieSeuDestino</a>
+        <a href="http://encurtador.com.br/cmCEI">eBiografia</a>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
