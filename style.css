@@ -198,6 +198,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0px auto;
 }
 
+.quotes h2 {
+  color: #292929;
+  font-size: 64px;
+  max-width: 730px;
+  margin: 32px auto;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+}
+
 .quote-item {
   width: 720px;
   height: 150px;
